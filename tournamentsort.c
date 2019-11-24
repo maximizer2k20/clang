@@ -52,3 +52,4 @@ for(i = i/2; i > 1; i = i/2) {
   else
 	tourn[i/2] = maxi(tourn[i], tourn [i-1]);
 }
+/* This algorithm takes (n-1) + 2(n-1)(log2)n computaiton time */ 
