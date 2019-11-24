@@ -17,11 +17,11 @@ tounr[i/2] = maxi(tourn[i], tourn[i+1]);
 
 for (i = 1; i<=2*n-1; i++)
    printf("%d ", tourn[i]);
- printf("\n");
+   printf("\n");
 }
 
 int maxi(int i, int j)
 {  if (i > j) return(i);
-else  return(j);
+   else  return(j);
 }
  
